@@ -1,0 +1,11 @@
+<launch>
+
+<node pkg="tp" type="tp" name="tp" output="screen">
+  <!--基准ｐｃｄ路径-->
+  <param name="start_path" value="/home/chen/pcd_data/1.pcd"/>
+
+　　<!--先对ｐｃｄ路径-->
+  <param name="end_path" value="/home/chen/pcd_data/50.pcd"/>
+
+</node>
+</launch>
